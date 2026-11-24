@@ -108,5 +108,3 @@ bool IsStrong(string p)
         && HasDigit(p)
         && HasSpecialChar(p);
 }
-
-
