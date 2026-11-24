@@ -10,6 +10,8 @@
 | 01 | Module01_Basics | Lab04_Loops | сдано |
 | 01 | Module01_Basics | Lab05_Arrays | сдано |
 | 01 | Module01_Basics | Lab06_Strings | сдано |
+| 01 | Module01_Basics | Lab07_Methods | сдано |
+| 01 | Module01_Basics | Lab08_PasswordValidator | сдано |
 
 ## Заметки
 
