@@ -13,6 +13,7 @@
 | 01 | Module01_Basics | Lab07_Methods | сдано |
 | 01 | Module01_Basics | Lab08_PasswordValidator | сдано |
 | 02 | Module02_OOP | Lab01_Classes | сдано |
+| 02 | Module02_OOP | Lab02_Properties | сдано |
 
 ## Заметки
 
