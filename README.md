@@ -14,6 +14,7 @@
 | 01 | Module01_Basics | Lab08_PasswordValidator | сдано |
 | 02 | Module02_OOP | Lab01_Classes | сдано |
 | 02 | Module02_OOP | Lab02_Properties | сдано |
+| 02 | Module02_OOP | Lab03_Inheritance | сдано |
 
 ## Заметки
 

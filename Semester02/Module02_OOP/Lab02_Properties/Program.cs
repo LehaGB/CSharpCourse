@@ -38,7 +38,7 @@ catch (ArgumentException ex)
 }
 
 
-class Book
+public class Book
 {
     private int _year;
     private int _pages;
@@ -99,7 +99,7 @@ class Book
         get { return _year >= 2000; }
     }
 
-    public void PrintInfo()
+    public virtual void PrintInfo()
     {
         Console.WriteLine($"Книга: «{Title}»");
         Console.WriteLine($"Автор: {Author}");
