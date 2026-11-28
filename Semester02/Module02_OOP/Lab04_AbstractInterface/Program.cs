@@ -1,7 +1,8 @@
 ﻿Animal[] animals =
 {
     new Dog("Шарик"),
-    new Bird("Кеша")
+    new Bird("Кеша"),
+    new Penguin("Петя")
 };
 
 foreach(Animal a in animals)
@@ -14,7 +15,8 @@ foreach(Animal a in animals)
 IFlyable[] flyable =
 {
     new Bird("Кеша"),
-    new Airplane()
+    new Airplane(),
+    new Helicopter()
 };
 
 foreach(IFlyable f in flyable)
@@ -94,5 +96,30 @@ class Airplane : IFlyable
     public void Fly()
     {
         Console.WriteLine("Самолет летит");
+    }
+}
+
+class Penguin : Animal
+{
+    public override string Species => "Пингвин";
+
+    public Penguin(string name) : base(name)
+    {
+        
+    }
+
+    public override void MakeSound()
+    {
+        Console.WriteLine("Кря-кря!");
+    }
+}
+
+class Helicopter : IFlyable
+{
+    public int MaxAltitude => 5000;
+
+    public void Fly()
+    {
+        Console.WriteLine("Вертолет летит");
     }
 }
